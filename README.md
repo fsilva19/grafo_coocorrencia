@@ -1,7 +1,7 @@
 # Análise de Assortatividade em Grafos de Ingredientes da Culinária Brasileira (U1T2)
 ---
 Disciplina: Algoritmos e Estruturas de Dados II
-</br>Discente: Felipe Gabriel B. da Silva
+</br>Discente: Felipe Gabriel B. da Silva - 20240001322
 
 ---
 </br>
