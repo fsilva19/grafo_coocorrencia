@@ -53,4 +53,4 @@ O coeficiente de assortatividade do grafo, considerando o atributo de tipo, é a
 
 </br>
 
-_Link para o vídeo_ -> _httpsskmsk. smc_
+_Link para o vídeo_ -> _https://drive.google.com/file/d/1SzGsHjYLITj4ku8D8T95bo1gNP7tS_Eq/view?usp=sharing_
