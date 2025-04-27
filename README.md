@@ -17,14 +17,14 @@ Outras bibliotecas importantes que também são utilizadas no projeto:
 
 ## Requisitos
 1. Utilizar algum modelo de linguagem para gerar, a partir de uma imagem da receita, a listagem dos ingredientes utilizados, bem como classificar o ingrediente em uma das categorias abaixo:
-  * Proteína, Carboidrato, Vegetal, Fruta, Laticínio, Gordura, Condimento ou Outro.
+  - Proteína, Carboidrato, Vegetal, Fruta, Laticínio, Gordura, Condimento ou Outro.
 2. Organizar os dados em um arquivo .CSV em três colunas:
-  * nome_receita, Ingredientes e tipos_ingredientes
+  - nome_receita, Ingredientes e tipos_ingredientes
 3. Construir um grafo G, sendo:
-  * Nós -> Ingredientes
-  * Arestas -> Ingredientes que aparecem na mesma receita
-  * Atributo dos nós -> Tipo do ingrediente
-  * Cor do nó -> De acordo com o tipo do ingrediente
+  - Nós -> Ingredientes
+  - Arestas -> Ingredientes que aparecem na mesma receita
+  - Atributo dos nós -> Tipo do ingrediente
+  - Cor do nó -> De acordo com o tipo do ingrediente
 4. Analisar o coeficiente de assortatividade do tipo do ingrediente usando "networkx.attribute_assortativity_coefficient(G, 'tipo')"
 ## Análise da assortatividade
 
@@ -32,6 +32,6 @@ A assortatividade é uma medida de grafos que indicam o quanto os nós semelhant
 </br>
 Para a análise quantitativa, temos as seguintes classificações:
 
-* O valor é próximo de 1? → Homofilia: ingredientes do mesmo tipo tendem a estar juntos.
-* O valor é próximo de 0? → Combinação aleatória.
-* O valor é negativo? → Heterofilia: há preferência por ingredientes de tipos diferentes.
+- O valor é próximo de 1? → Homofilia: ingredientes do mesmo tipo tendem a estar juntos.
+- O valor é próximo de 0? → Combinação aleatória.
+- O valor é negativo? → Heterofilia: há preferência por ingredientes de tipos diferentes.
