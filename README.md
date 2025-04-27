@@ -35,3 +35,22 @@ Para a análise quantitativa, temos as seguintes classificações:
 - O valor é próximo de 1? → Homofilia: ingredientes do mesmo tipo tendem a estar juntos.
 - O valor é próximo de 0? → Combinação aleatória.
 - O valor é negativo? → Heterofilia: há preferência por ingredientes de tipos diferentes.
+
+## Resultados
+
+Feito o código, foram geradas algumas informações importantes:
+```
+Número de nós (ingredientes): 133
+Número de arestas (coocorrências): 1195
+Coeficiente de assortatividdade: -0.022807771993952845
+```
+Imagem do grafo gerado:
+</br>
+![grafo](https://github.com/user-attachments/assets/b7ad1cde-9207-452f-bc92-9e36cd0acf7f)
+
+## Discussão 
+O coeficiente de assortatividade do grafo, considerando o atributo de tipo, é aproximadamente -0.02, indicando que as receitas não possuem um padrão na escolha dos ingredientes a partir do seu tipo. Embora o valor seja negativo, o que indicaria uma preferência por heterogeneidade, ele está bem próximo de zero, não tendo um efeito considerável. Em outras palavras, a culinária popular brasileira, analisada em uma amostra aleatória de 50 receitas, não demonstra um padrão claro na busca de juntar ingredientes do mesmo tipo, nem uma preferência por tipos diferentes.
+
+</br>
+
+_Link para o vídeo_ -> _httpsskmsk. smc_
